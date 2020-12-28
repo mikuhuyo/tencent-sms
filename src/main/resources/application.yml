@@ -1,0 +1,41 @@
+server:
+  port: 56085
+  servlet:
+    context-path: /tencent
+
+spring:
+  application:
+    name: tencent-sms
+  main:
+    allow-bean-definition-overriding: true
+    banner-mode: 'off'
+
+  # redis配置
+  redis:
+    host: 192.168.158.164
+    port: 6379
+    password: yueliminvc@outlook.com
+    timeout: 10000
+    lettuce:
+      pool:
+        max-idle: 8
+        min-idle: 0
+        max-active: 8
+        max-wait: 10000
+      shutdown-timeout: 100
+
+# 腾讯云秘钥(默认没有开启秘钥)
+sms:
+  qcloud:
+    appId: 12345678
+    appKey: 'yueliminvc888888ddddd'
+    templateId: '123456'
+    sign: 'fake'
+
+# 开启Swagger注解
+swagger:
+  enable: true
+
+# 日志配置文件
+logging:
+  config: classpath:log4j2.xml
