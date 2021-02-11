@@ -9,9 +9,11 @@ import org.apache.commons.lang.StringUtils;
 import java.util.Map;
 
 /**
+ * <p>
+ * 验证处理接口
+ * </p>
+ *
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 验证处理接口
  * @since JDK 8
  */
 public abstract class AbstractVerificationHandler {

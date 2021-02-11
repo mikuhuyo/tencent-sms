@@ -1,17 +1,19 @@
 package com.tencent.sms.sms.qcloud;
 
+import com.github.qcloudsms.SmsSingleSenderResult;
 import com.tencent.sms.common.domain.BusinessException;
 import com.tencent.sms.common.domain.CommonErrorCode;
 import com.tencent.sms.sms.SmsService;
-import com.github.qcloudsms.SmsSingleSenderResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 /**
+ * <p>
+ * 腾讯云短信服务
+ * </p>
+ *
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 腾讯云短信服务
  * @since JDK 8
  */
 @Slf4j

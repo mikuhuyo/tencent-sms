@@ -18,8 +18,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 异常信息拦截
  * @since JDK 8
  */
 @ControllerAdvice

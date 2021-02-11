@@ -4,8 +4,6 @@ import java.util.Set;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description
  * @since JDK 8
  */
 public interface Cache {

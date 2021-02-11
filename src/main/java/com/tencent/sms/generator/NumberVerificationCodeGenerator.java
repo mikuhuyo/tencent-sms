@@ -3,17 +3,19 @@ package com.tencent.sms.generator;
 import java.util.Random;
 
 /**
+ * <p>
+ * 验证码生成
+ * </p>
+ *
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 验证码生成
  * @since JDK 8
  */
 public class NumberVerificationCodeGenerator implements VerificationCodeGenerator {
+    private int len;
+
     public NumberVerificationCodeGenerator(int len) {
         this.len = len;
     }
-
-    private int len;
 
     @Override
     public String generate() {

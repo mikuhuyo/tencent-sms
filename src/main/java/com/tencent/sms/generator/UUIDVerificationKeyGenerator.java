@@ -3,9 +3,11 @@ package com.tencent.sms.generator;
 import java.util.UUID;
 
 /**
+ * <p>
+ * 唯一标识
+ * </p>
+ *
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 唯一标识
  * @since JDK 8
  */
 public class UUIDVerificationKeyGenerator implements VerificationKeyGenerator {

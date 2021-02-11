@@ -7,8 +7,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description
  * @since JDK 8
  */
 public class RedisCache implements Cache {

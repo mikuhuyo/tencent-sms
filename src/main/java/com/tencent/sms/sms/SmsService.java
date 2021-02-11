@@ -2,8 +2,6 @@ package com.tencent.sms.sms;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description
  * @since JDK 8
  */
 public interface SmsService {

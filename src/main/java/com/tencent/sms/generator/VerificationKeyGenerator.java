@@ -1,9 +1,11 @@
 package com.tencent.sms.generator;
 
 /**
+ * <p>
+ * 验证秘钥生成器
+ * </p>
+ *
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 验证秘钥生成器
  * @since JDK 8
  */
 public interface VerificationKeyGenerator {

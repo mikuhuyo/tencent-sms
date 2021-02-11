@@ -1,9 +1,11 @@
 package com.tencent.sms.store;
 
 /**
+ * <p>
+ * 验证信息存储key value
+ * </p>
+ *
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 验证信息存储key value
  * @since JDK 8
  */
 public interface VerificationStore {

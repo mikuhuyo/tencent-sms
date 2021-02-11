@@ -3,8 +3,6 @@ package com.tencent.sms.common.domain;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 信息标注类
  * @since JDK 8
  */
 public enum CommonErrorCode implements ErrorCode {
@@ -19,16 +17,6 @@ public enum CommonErrorCode implements ErrorCode {
     private int code;
     private String desc;
 
-    @Override
-    public int getCode() {
-        return code;
-    }
-
-    @Override
-    public String getDesc() {
-        return desc;
-    }
-
     CommonErrorCode(int code, String desc) {
         this.code = code;
         this.desc = desc;
@@ -41,5 +29,15 @@ public enum CommonErrorCode implements ErrorCode {
             }
         }
         return null;
+    }
+
+    @Override
+    public int getCode() {
+        return code;
+    }
+
+    @Override
+    public String getDesc() {
+        return desc;
     }
 }

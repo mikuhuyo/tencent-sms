@@ -8,17 +8,18 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description sms控制层接口服务
  * @since JDK 8
  */
-@Api(value = "验证码服务接口")
+@Api(value = "验证码服务接口", tags = "SMS")
 @RestController
 public class VerificationController {
     @Autowired

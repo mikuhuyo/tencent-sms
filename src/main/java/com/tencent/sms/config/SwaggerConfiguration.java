@@ -14,8 +14,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description swagger 配置类
  * @since JDK 8
  */
 @Configuration
@@ -29,7 +27,7 @@ public class SwaggerConfiguration {
                 .apiInfo(apiInfo())
                 .select()
                 // 自行修改为自己的包路径
-                .apis(RequestHandlerSelectors.basePackage("com.example.sms.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.tencent"))
                 .paths(PathSelectors.any())
                 .build();
     }
@@ -42,14 +40,12 @@ public class SwaggerConfiguration {
      */
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("短信验证码服务在线API文档")
+                .title("短信验证码服务在线API")
                 .description("包含短信API, 验证码")
                 // 服务条款网址
-                .termsOfServiceUrl("https://github.com/YueLiMin-say")
+                .termsOfServiceUrl("https://github.com/mikuhuyo")
                 .version("1.0.0")
-                .contact(new Contact("岳立民",
-                        "https://github.com/YueLiMin-say",
-                        "yueliminvc@outlook.com"))
+                .contact(new Contact("岳立民", "https://github.com/mikuhuyo", "yueliminvc@outlook.com"))
                 .build();
     }
 

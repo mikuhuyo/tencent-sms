@@ -5,8 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 启动类
  * @since JDK 8
  */
 @SpringBootApplication

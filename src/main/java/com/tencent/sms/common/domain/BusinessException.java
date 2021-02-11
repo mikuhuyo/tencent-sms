@@ -1,10 +1,7 @@
 package com.tencent.sms.common.domain;
 
-
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 自定义异常处理类
  * @since JDK 8
  */
 public class BusinessException extends RuntimeException {

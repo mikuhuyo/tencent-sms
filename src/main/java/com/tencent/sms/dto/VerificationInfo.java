@@ -5,8 +5,6 @@ import lombok.Data;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 验证信息DTO
  * @since JDK 8
  */
 @Data

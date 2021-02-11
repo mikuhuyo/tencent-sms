@@ -18,9 +18,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * <p>
+ * 扩展腾讯云发送短信方法, 因为腾讯云引用json的包与spring-boot有冲突, 故自己来实现.
+ * </p>
+ *
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 扩展腾讯云发送短信方法, 因为腾讯云引用json的包与spring-boot有冲突, 故自己来实现.
  * @since JDK 8
  */
 public class QCloudSmsSingleSender extends SmsSingleSender {

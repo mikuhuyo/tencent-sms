@@ -8,8 +8,6 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description Redis配置类
  * @since JDK 8
  */
 @Configuration

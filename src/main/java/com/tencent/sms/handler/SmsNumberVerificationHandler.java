@@ -11,9 +11,11 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.Map;
 
 /**
+ * <p>
+ * 短信(数字随机验证码)处理器
+ * </p>
+ *
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description 短信(数字随机验证码)处理器
  * @since JDK 8
  */
 @Slf4j

@@ -10,8 +10,6 @@ import java.util.Map;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description
  * @since JDK 8
  */
 @Service

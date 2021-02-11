@@ -6,8 +6,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author yuelimin
- * @software IntelliJ IDEA
- * @description
  * @since JDK 8
  */
 @Component
