@@ -53,7 +53,7 @@ docker run --name redis -p 6379:6379  \
 
 修改`sms`与`redis`配置.
 
-```yaml`
+```yaml
 sms:
   qcloud:
     appId: 12345678
